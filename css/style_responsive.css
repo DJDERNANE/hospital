@@ -1,0 +1,73 @@
+@media only screen and (max-width: 750px) {
+    
+    .font{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        width: 100%;
+        font-size: 30px; 
+    }
+    .tittle{
+        font-size: 40px;
+    }
+    button{
+        margin-top: 20px;
+    }
+    .image img{
+        height: 400px;
+        width: 400px;
+        margin: 30px;
+    }
+    .match{
+        margin: 8px;
+        margin-top: 15px;
+        width: 80%;
+    }
+    .matches{
+        margin-top: 100px;  
+    }
+    .parent-match{
+        display: flex;
+        justify-content: center;
+    }
+    .navigation_bar{
+        display: block;
+        height: auto;
+        padding: 10px;
+        position: fixed;
+    }
+    .navigation_bar ul{
+       display: none;
+       transition: 00.6s;
+    }
+    .navigation_bar ul.clicked{
+        display: block;
+        transition: 00.6s;
+    }
+    .navigation_bar > ul > li{
+        margin: 20px;
+        width: 100%;
+    }
+    .spanbar{
+        cursor: pointer;
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.6s;
+    }
+    .spanbar span{
+        width: 40px;
+        height: 3px;
+        background-color: white;
+        border-radius: 3px;
+        margin: 3px;
+       
+    }
+    .head{
+        display: flex;
+        width: 100%;
+        right: 0px;
+    }
+}
