@@ -1,0 +1,137 @@
+@media screen and (max-width:900px) {
+  .footer{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer div{
+    width: 100%;
+  }
+  h3{
+    text-align: left;
+  }
+  form{
+    width: 70%;
+  }
+  .parent{
+    position: relative;
+  }
+  .contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-stats{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  .container-stats div{
+    margin: 20px;
+  }
+  .services{
+    height: max-content;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .dsicoration{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+  }
+  .main{
+    z-index: 10;
+  }
+  .navbar{
+    background-color: #0096FF;
+    height: 80px;
+  }
+  .navbar ul{
+    display: none;
+  }
+  .togglle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .togglle span{
+    width: 45px;
+    height: 5px;
+    border-radius: 7px;
+    background-color: white;
+    margin: 3px;
+  }
+  .desc{
+    display: none;
+  }
+  .btns{
+    display: flex;
+  }
+  .picture{
+    display: none;
+  }
+  .text .title{
+   color: white;
+   font-size: 70px;
+   margin-bottom: 40px;
+   transform: translateX(-250px);
+   transition: all 2s;
+   opacity: 0;
+  }
+  .text .title.loaded{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  .parent{
+    background-image: url("../imgs/pic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  ul.active{
+  display: flex;
+  flex-direction: column;
+  background-color: #0096FF;
+  align-items: space-around;
+  width: 100%;
+  z-index: 100000000;
+ height: max-content;
+ padding: 10px;
+}
+ul.active li{
+  margin-top: 10px;
+  color: white;
+}
+ul.active li a{
+color: white;
+
+}
+ul.active li a:hover{
+  border-bottom: white solid 2px;
+  font-size: 25px;
+transition: all 0.6s;}
+.desc{
+  width: 100%;
+}
+.item div img{
+	width: 90%;
+	height: 100%;
+}
+.address,.contact{
+  margin-top: 30px;
+}
+.address h3,.contact h3{
+  padding: 15px;
+}
+}
