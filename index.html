@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accueil</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	
+	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	
+</head>
+<body  onload="page_load()" >
+	
+	<div class="parent" >
+		<div class="navbar">
+			
+			<img src="imgs/logo.png" alt="" class="logo">
+			<div class="togglle" onclick="disnav()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>			
+			<ul>	
+				<li>
+					<a href="#services" onclick="nonavlist()">Our Services</a>
+				</li>		
+				<li>
+					<a href="#about">About Us</a>
+				</li>
+				
+				<li>
+					<a href="#team">Our Team</a>
+				</li>
+				<li>
+					<a href="#contact">Contact </a>
+				</li>
+				
+				<li>
+					<a href=""> <button>Get in Touch</button></a>
+				</li>
+			</ul>
+		</div>
+		<div class="dsicoration">
+			
+		</div>
+		<div class="picture">
+			<img src="imgs/fond.png" id="image">
+		</div>
+		
+		<div class="main" id="main">
+			<div class="text">
+				<p class="title">
+					OUR BEST <br> <span>Doctors <br> Online</span>
+				</p>
+				<p class="desc">
+					we offre speacial services with professional Doctors  
+					you are in the right place take a look about our services and our Team 
+				</p> 
+				<div class="btns">
+					<button> Learn More</button>
+					<button> Contact Us</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="services" id="services">
+			<p class="title">
+				Our Services
+			</p>
+		<div class="container" >
+			
+			<div class="text" id="text" onclick="servicesImage()">
+				
+			</div>
+			<div class="photo">
+				<img id="ser-pic" src="" alt="">
+				
+			</div>
+		</div>
+		<div class="repaire">
+			<div class="child1" id="child1">
+
+			</div>
+			<div class="child2" id="child2">
+
+			</div>
+			<div class="child3" id="child2"></div>
+
+		</div>
+
+	</div>
+	<hr>
+	<div class="services" id="about">
+			<p class="title">
+				About Us
+			</p>
+		<div class="container-stats" >
+			<div>
+				<div class="stats" >
+					<div>
+						+ 200
+					</div>
+				</div>
+				<h4> Doctors at work</h4>
+			</div>
+			<div>
+				<div class="stats" >
+					<div>
+						+2 k
+					</div>
+				</div>
+				<h4>Happy Patients</h4>
+			</div>
+			<div>
+
+			
+				<div class="stats" >
+					<div>
+						+100
+					</div>
+				</div>
+				<h4>Hospital Available</h4>
+			</div>
+			
+
+		</div>
+
+	</div>
+	<hr>
+	<div class="doctors" id="team">
+		<p class="title">
+			Our Team
+		</p>
+		<div class="container-fluid row ">
+			<div class="item col-sm-10 col-md-3">
+				<div>
+					<img src="imgs/Dr-SudhansuBhatacharya.jpg" alt="">
+				</div>
+				<div>
+					<h4>Dr Sudhansu Bhatacharya</h4>
+				</div>
+			</div>
+			<div class="item col-sm-10 col-md-3">
+				<div>
+					<img src="imgs/Dr.-A.-Reese-Abright.png" alt="">
+				</div>
+				<div>
+					<h4>Dr Reese Abright</h4>
+				</div>
+			</div>
+			<div class="item col-sm-10 col-md-3">
+				<div>
+					<img src="imgs/Dr-SudhansuBhatacharya.jpg" alt="">
+				</div>
+				<div>
+					<h4>Dr MARK AARON</h4>
+				</div>
+			</div>
+			<div class="item col-sm-10 col-md-3">
+				<div>
+					<img src="imgs/Dr.-A.-Reese-Abright.png" alt="">
+				</div>
+				<div>
+					<h4>Dr Abbot Myles</h4>
+				</div>
+			</div>
+			<div class="item col-sm-10 col-md-3">
+				<div>
+					<img src="imgs/Dr.-A.-Reese-Abright.png" alt="">
+				</div>
+				<div>
+					<h4>Dr Abbot Bhatacharya</h4>
+				</div>
+			</div>
+			<div class="item col-sm-10 col-md-3">
+				<div>
+					<img src="imgs/Dr-SudhansuBhatacharya.jpg" alt="">
+				</div>
+				<div>
+					<h4>Dr Sudhansu Bhatacharya</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer" id="contact">
+			
+			<div class="address">
+				<h3>ADDRESS</h3>
+				<div class="location">
+					<a> <i class="bi bi-geo-alt-fill"></i> Chlef , Algeria </a>
+				</div>
+				<div class="tlf">
+					<a> <i class="bi bi-telephone-fill"></i> +213 754682201 </a>
+				</div>
+				<div class="email" >
+					<a> <i class="bi bi-envelope-fill"></i> ihcen@gmail.com </a>
+				</div>
+			</div>
+			<div class="contact">
+				<h3>CONTACT US</h3>
+				<form action="">
+					<div>
+						<label for="email "> Email :</label>
+					</div>
+					<div>
+						<input type="email" >
+					</div>
+					<div>
+						<label for="Message"> Message :</label>
+					</div>
+					<div>
+						<input type="text" >
+					</div>
+					<div class="envoyer">
+						<input type="submit" value="Send" class="submit">
+					</div>
+				</form>
+			</div>
+			<div class="address">
+				<h3>FOLLOW US</h3>
+				<div class="location">
+					<a> <i class="bi bi-facebook"></i> Facebook </a>
+				</div>
+				<div class="tlf">
+					<a> <i class="bi bi-instagram"></i>Instgram </a>
+				</div>
+				<div class="email" >
+					<a> <i class="bi bi-whatsapp"></i> What's Up </a>
+				</div>
+			</div>
+	
+	
+		
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script  type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
